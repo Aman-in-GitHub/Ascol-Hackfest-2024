@@ -1,0 +1,21 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": ["./*"],
+      "@fonts/*": ["./assets/fonts/*"],
+      "@images/*": ["./assets/images/*"],
+      "@styles/*": ["./styles/*"],
+      "@components/*": ["./components/*"],
+      "@storage/*": ["./storage/*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "svg.d.ts"
+  ]
+}
